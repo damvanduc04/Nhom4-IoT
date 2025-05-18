@@ -58,13 +58,16 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:22.3.1'
 }
 apply plugin: 'com.google.gms.google-services'
-## Modify build.gradle (Project):
+
+---
+
+#Modify build.gradle (Project):
 classpath 'com.google.gms:google-services:4.4.1'
 📌 Sync Gradle and rebuild the project.
 
 ---
 
-## Firebase Database Structure Example
+#Firebase Database Structure Example
 {
   "sensorData": {
     "alert": false,
