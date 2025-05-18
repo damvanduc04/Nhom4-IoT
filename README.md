@@ -1,5 +1,18 @@
 # 🌡️ ESP32 + DHT22 + Firebase Realtime Database with Android App
 
+# Nhom4-IoT  
+## 📌 Table of Contents  
+- [Hardware Requirements](#hardware-requirements)  
+- [Wiring Diagram](#wiring-diagram)  
+- [Firebase Setup](#firebase-setup)  
+- [Android Studio Setup](#android-studio-setup)  
+- [Modify build.gradle (Project)](#modify-buildgradle-project)  
+- [Firebase Database Structure Example](#firebase-database-structure-example)  
+- [Features](#features)  
+- [Notes](#notes)  
+
+---
+
 This project uses an **ESP32 microcontroller** to:
 - 📡 Read **temperature** and **humidity** from a DHT22 sensor.
 - ☁️ Send sensor data to **Firebase Realtime Database**.
