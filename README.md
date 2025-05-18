@@ -11,7 +11,7 @@ This project uses an **ESP32 microcontroller** to:
 ## 🔧 Hardware Requirements
 - **ESP32 development board**
 - **DHT22 sensor**
-- **2x LEDs + 220Ω resistors**
+- **1x LEDs + 220Ω resistors**
 - **Jumper wires, Breadboard**
 - **Wi-Fi network with internet access**
 - **Android Studio (for virtual emulator testing)**
