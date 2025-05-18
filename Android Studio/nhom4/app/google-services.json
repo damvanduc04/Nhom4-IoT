@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "934891380220",
+    "firebase_url": "https://nhom4iot-44b0d-default-rtdb.firebaseio.com",
+    "project_id": "nhom4iot-44b0d",
+    "storage_bucket": "nhom4iot-44b0d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934891380220:android:b298747ccddd321576a679",
+        "android_client_info": {
+          "package_name": "com.example.nhom4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0Dz1SK4OCd8NklaFPYNokitTRNuXQQZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
