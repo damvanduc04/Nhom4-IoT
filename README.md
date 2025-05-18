@@ -59,3 +59,33 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:22.3.1'
 }
 apply plugin: 'com.google.gms.google-services'
+
+📌 Modify build.gradle (Project):
+classpath 'com.google.gms:google-services:4.4.1'
+📌 Sync Gradle and rebuild the project.
+
+🖼️ Firebase Database Structure Example
+{
+  "sensorData": {
+    "alert":false
+    "temperature": 33.8
+    "humidity": 68
+    "lightStatus": true
+  }
+}
+
+✅ Features
+✔️ Real-time monitoring of temperature & humidity in Android app.
+✔️ Automatic warning LED when temperature > 40°C.
+✔️ Remote LED control via Firebase.
+✔️ Works on Android Studio emulator, no physical device required.
+
+📌 Notes
+⚠️ For testing purposes, set Firebase rules to public:
+{
+  "rules": {
+    ".read": "true",
+    ".write": "true"
+  }
+}
+📌 After testing, update security rules for better protection.
