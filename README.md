@@ -58,3 +58,12 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:22.3.1'
 }
 apply plugin: 'com.google.gms.google-services'
+
+{
+  "sensorData": {
+    "alert": false,
+    "temperature": 33.8,
+    "humidity": 68,
+    "lightStatus": true
+  }
+}
